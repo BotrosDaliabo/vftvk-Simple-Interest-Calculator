@@ -21,7 +21,7 @@ function compute() {
     //spanTagStart and spanTagEnd are used to create highlighted span tags.
     spanTagStart = "<span class='numbers'>";
     spanTagEnd = "</span>";
-    //display result if input is valid.
+    //display result if principal input is valid.
     if (isInputValid) {
         document.getElementById('result').innerHTML =
             "If you deposit " + spanTagStart + principal + spanTagEnd +
