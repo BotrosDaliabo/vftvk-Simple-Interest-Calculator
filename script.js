@@ -25,8 +25,8 @@ function compute() {
     if (isInputValid) {
         document.getElementById('result').innerHTML =
             "If you deposit " + spanTagStart + principal + spanTagEnd +
-            ", <br> at an interest rate of " + spanTagStart + rate + spanTagEnd +
-            "<br> You will receive an amount of " + spanTagStart + interest + " %." + spanTagEnd +
+            ", <br> at an interest rate of " + spanTagStart + rate + " %." + spanTagEnd +
+            "<br> You will receive an amount of " + spanTagStart + interest + spanTagEnd +
             ", <br> in the year " + spanTagStart + newYear.getFullYear() + spanTagEnd;
     }
 }
